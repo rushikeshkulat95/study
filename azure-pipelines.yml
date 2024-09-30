@@ -11,5 +11,6 @@ pool:
 
 steps:
 - script: echo Hello, world!
+- script: cat /etc/os-release && ls -lrta
   displayName: 'Run a one-line script'
 
